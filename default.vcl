@@ -109,7 +109,6 @@ sub vcl_recv {
         req.url ~ "^/logout" ||
         req.url ~ "^/lost-password" ||
         req.url ~ "^/mijn-account" ||
-        req.url ~ "^/product" ||
         req.url ~ "^/register" ||
         req.url ~ "^/register.php" ||
         req.url ~ "^/server-status" ||

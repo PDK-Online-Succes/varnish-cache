@@ -92,6 +92,7 @@ sub vcl_recv {
 
     # No caching of special URLs, logged in users and some plugins
     if (
+    	req.http.Cookie ~ "wp-setiings-[a-zA-Z0-9]+" ||
         req.http.Authorization ||
         req.url ~ "add_to_cart" ||
         req.url ~ "edd_action" ||

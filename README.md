@@ -15,7 +15,7 @@ curl -o /tmp/default.vcl https://raw.githubusercontent.com/PDK-Online-Succes/var
 ## 
 Lookup public and local IP
 ```bash
-Hostname -I
+hostname -I
 ```
 
 ## 

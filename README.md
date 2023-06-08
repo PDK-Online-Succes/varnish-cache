@@ -33,7 +33,7 @@ docker exec -it varnish bash
 apt-get update
 ```
 ```bash
-apt-get Install nano
+apt-get install nano
 ```
 ```bash
 nano default.vcl
